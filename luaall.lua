@@ -25,9 +25,11 @@ end
 b = 5
 while b > 0 do
   b = b - 1
+  print(b)
 end
  
 -- цикл с постусловием
 repeat
   b = b + 1
+  print(b)
 until b >= 5
